@@ -20,27 +20,28 @@ You can install these libraries using pip:
 
 ```bash
 pip install opencv-python mediapipe pyautogui
-How to Use
+```
+### How to Use
 Clone the Repository:
 
 First, clone this repository to your local machine:
 
 bash
 Copy code
+```
 git clone https://github.com/your-username/face-detection.git
 cd face-detection
-Run the Program:
+```
+### Run the Program:
 
 Execute the Python script to start the face detection:
 
-bash
-Copy code
 python face_detection.py
-The program will automatically start the webcam and begin detecting faces. When a face is detected, the program can perform actions, such as moving the mouse cursor, taking a screenshot, or other automated tasks using PyAutoGUI.
+The program will automatically start the webcam and begin detecting faces. When a face is detected, the program can perform actions, such as moving the mouse cursor other automated tasks using PyAutoGUI.
 
-Stopping the Program:
+### Stopping the Program:
 
 To stop the program, simply close the window displaying the webcam feed or press Ctrl+C in the terminal.
 
-Contributing
+### Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
